@@ -1,0 +1,112 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+h3{
+    margin-left: 7px;
+}
+img{
+    margin-left: 7px;
+}
+table{
+    margin-left: 7px;
+    margin-top: 10px;
+   border-collapse: collapse;
+   height: fit-content;
+   width: 70%;
+}
+th{
+    background-color:rgb(40, 11, 11) ;
+    color:white;
+    font-size: 20px;
+}
+#head{
+    font-size: 20px;
+    font-weight: bold;
+}
+#Register{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+h2{
+    text-align: center;
+}
+form{
+    margin-left: 7px;
+    border-radius: 8px;
+    width: 150px;
+    height: fit-content;
+    padding: 20px;
+    margin: 50px auto;
+    margin-top: 0%;
+}
+form label{
+    margin-top: 8px;
+}
+form input{
+   margin-top: 8px;
+   margin-bottom: 8px;
+   border-radius: 6px;
+   height: 30px;
+   width: 200px; 
+    
+}
+select{
+   margin-top: 8px;
+   margin-bottom: 8px;
+   border-radius: 6px;
+   height: 30px;
+   width: 200px; 
+   cursor: pointer;
+}
+form textarea{
+   margin-top: 8px;
+   border-radius: 6px;
+   height: 40px;
+   width: 200px; 
+    
+}
+#rbutton{
+   cursor: pointer;
+   font-size: medium;
+}
+
+#userr{
+   margin-top: 3px;
+   margin-left: 20px;
+   border-radius: 6px;
+   width: 160px;
+   height: 20px;
+   font-size: medium;
+   cursor: pointer;
+}
+#female{
+    margin-top: 0px;
+    size: 3px;
+    height: 15px;
+    width: 15px;
+}
+#male{
+    margin-top: 3px;
+    size: 3px;
+    height: 15px;
+    width: 15px;
+}
+#expert{
+    margin-top: 0px;
+    size: 3px;
+    height: 15px;
+    width: 15px;
+}
+#experte{
+    margin-top: 5px;
+    size: 3px;
+    height: 15px;
+    width: 15px;
+}

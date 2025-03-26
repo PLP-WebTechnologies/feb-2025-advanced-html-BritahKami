@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week2 Assignment</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Week 2 Assignment</h1>
@@ -30,7 +31,7 @@
                 <th colspan="4">Contacts</th>
             </tr>
             <tbody>
-                <tr>
+                <tr id="head">
                     <td>Name</td>
                     <td>Address</td>
                     <td>Mobile</td>
@@ -72,7 +73,7 @@
 
       <!-- Registration form -->
       <div class="Register">
-        <h1>SIGN UP</h1>
+        <h2>SIGN UP</h2>
     <form>
         <label>First Name</label>
         <input type="text" id="fname" name="first_name" required>
@@ -93,10 +94,10 @@
             <option value="casual_user">Casual User</option>
        </select>  
         
-       <label>Male</label>
+       <label id="lbutton">Male</label>
        <input type="radio" id="male" name="gender" value="male">
        
-       <label >Female</label>
+       <label id="lbutton">Female</label>
         <input type="radio" id="female" name="gender" value="female">
 
         <input type="checkbox" id="expert" name="interests" value="expert">
@@ -111,7 +112,6 @@
         <input type="submit" id="rbutton" value="Register">
     </form> 
 </div>
-
 
 </body>
 </html>
